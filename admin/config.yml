@@ -90,3 +90,35 @@ collections:
           - { name: "platinum_url", label: "Platinum card URL", widget: "string" }
           - { name: "disclaimer",   label: "Affiliate disclaimer", widget: "text" }
           - { name: "body",         label: "Body (Markdown)", widget: "markdown" }
+
+  # ---------- Impressum page (markdown file) ----------
+  - name: "impressum"
+    label: "Impressum page"
+    files:
+      - file: "content/impressum.md"
+        name: "impressum"
+        label: "Impressum page content"
+        format: "frontmatter"
+        fields:
+          - { name: "title", label: "Page title",      widget: "string" }
+          - { name: "emoji", label: "Header emoji",    widget: "string" }
+          - { name: "lede",  label: "Lede (subtitle)", widget: "string" }
+          - name: "body"
+            label: "Body (Markdown). Use {{legal.name}}, {{legal.street}}, {{legal.city}}, {{legal.country}}, {{legal.email}}, {{legal.phone}}, {{legal.stand}} to insert contact info."
+            widget: "markdown"
+
+  # ---------- Datenschutz page (markdown file) ----------
+  - name: "datenschutz"
+    label: "Datenschutz page"
+    files:
+      - file: "content/datenschutz.md"
+        name: "datenschutz"
+        label: "Datenschutz page content"
+        format: "frontmatter"
+        fields:
+          - { name: "title", label: "Page title",      widget: "string" }
+          - { name: "emoji", label: "Header emoji",    widget: "string" }
+          - { name: "lede",  label: "Lede (subtitle)", widget: "string" }
+          - name: "body"
+            label: "Body (Markdown). Use {{legal.name}}, {{legal.street}}, {{legal.city}}, {{legal.country}}, {{legal.email}}, {{legal.phone}}, {{legal.stand}} to insert contact info."
+            widget: "markdown"

@@ -8,7 +8,8 @@ Modern, mobile-first link-in-bio website for Elena Popova, mirroring the structu
 .
 ├── index.html        # Main landing page (Russian)
 ├── amex.html         # AMEX referral page
-├── legal.html        # Impressum + Datenschutzerklärung (German)
+├── impressum.html    # Impressum (German)
+├── datenschutz.html  # Datenschutzerklärung (German)
 └── assets/
     ├── styles.css    # All site styles
     └── avatar.jpg    # ← Add Alena's profile photo here

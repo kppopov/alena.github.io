@@ -24,14 +24,14 @@
     {
       "icon": "⚖️",
       "label": "Impressum",
-      "url": "legal.html#impressum",
+      "url": "impressum.html",
       "featured": false,
       "external": false
     },
     {
       "icon": "🔒",
       "label": "Datenschutzerklärung",
-      "url": "legal.html#datenschutz",
+      "url": "datenschutz.html",
       "featured": false,
       "external": false
     }

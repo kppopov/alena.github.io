@@ -71,7 +71,7 @@ async function renderHome() {
     }
 }
 
-/* ---------- Legal page ---------- */
+/* ---------- Legal page (legacy single page; kept for any external bookmarks) ---------- */
 async function renderLegal() {
     const legal = await loadJson('content/legal.json');
     const map = {
@@ -92,6 +92,38 @@ async function renderLegal() {
                 el.textContent = value || '';
             }
         });
+    }
+}
+
+/* ---------- Generic Markdown page (Impressum / Datenschutz) ----------
+ * Loads content/<name>.md, parses frontmatter, substitutes {{legal.X}} placeholders
+ * from content/legal.json, renders the body as Markdown, and fills the host page.
+ */
+async function renderMarkdownPage(name) {
+    const [raw, legal] = await Promise.all([
+        loadText(`content/${name}.md`),
+        loadJson('content/legal.json').catch(() => ({}))
+    ]);
+    const { data, body } = parseFrontmatter(raw);
+
+    const substitute = (text) => text.replace(/\{\{\s*legal\.([a-z_]+)\s*\}\}/gi,
+        (_, key) => (legal[key] != null ? String(legal[key]) : ''));
+
+    const titleEl = document.querySelector('[data-field="page.title"]');
+    const emojiEl = document.querySelector('[data-field="page.emoji"]');
+    const ledeEl  = document.querySelector('[data-field="page.lede"]');
+    const bodyEl  = document.querySelector('[data-field="page.body"]');
+
+    if (titleEl) {
+        const t = substitute(data.title || '');
+        titleEl.textContent = t;
+        if (t) document.title = `${t} · @alenopova`;
+    }
+    if (emojiEl) emojiEl.textContent = data.emoji || '';
+    if (ledeEl)  ledeEl.textContent  = substitute(data.lede || '');
+
+    if (bodyEl && window.marked) {
+        bodyEl.innerHTML = window.marked.parse(substitute(body));
     }
 }
 
@@ -137,7 +169,9 @@ function parseFrontmatter(text) {
 /* ---------- Boot ---------- */
 document.addEventListener('DOMContentLoaded', () => {
     const page = document.body.dataset.page;
-    if (page === 'home')  renderHome().catch(console.error);
-    if (page === 'legal') renderLegal().catch(console.error);
-    if (page === 'amex')  renderAmex().catch(console.error);
+    if (page === 'home')        renderHome().catch(console.error);
+    if (page === 'legal')       renderLegal().catch(console.error);
+    if (page === 'amex')        renderAmex().catch(console.error);
+    if (page === 'impressum')   renderMarkdownPage('impressum').catch(console.error);
+    if (page === 'datenschutz') renderMarkdownPage('datenschutz').catch(console.error);
 });
