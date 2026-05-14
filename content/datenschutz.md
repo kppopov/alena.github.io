@@ -1,16 +1,15 @@
 ---
-title: "Datenschutzerklärung"
-emoji: "🔒"
+title: Datenschutzerklärung
+emoji: 🔒
 lede: "Stand: {{legal.stand}}"
 ---
-
 ## 1. Verantwortliche Person
 
-{{legal.name}}  
-c/o IP-Management #10177  
-Ludwig-Erhard-Straße 18  
-20459 Hamburg  
-E-Mail: [{{legal.email}}](mailto:{{legal.email}})  
+{{legal.name}}\
+c/o IP-Management #10177\
+Ludwig-Erhard-Straße 18\
+20459 Hamburg\
+E-Mail: [{{legal.email}}](mailto:{{legal.email}})\
 Telefon: {{legal.phone}}
 
 ## 2. Allgemeines zur Datenverarbeitung
@@ -29,7 +28,7 @@ Wenn Sie mir über ein Kontaktformular eine Nachricht senden, werden die eingege
 
 Ich betreibe einen Telegram-Kanal als zusätzlichen Kommunikationskanal. Telegram wird betrieben von Telegram Messenger Inc., 71-75 Shelton Street, London WC2H 9JQ, Großbritannien.
 
-Wenn Sie meinem Kanal beitreten oder mir über Telegram Nachrichten senden, werden Ihre Daten auf den Servern von Telegram gespeichert. Ich habe keinen Einfluss auf die Datenverarbeitung durch Telegram. Bitte beachten Sie, dass bei der Nutzung von Telegram Daten außerhalb der EU verarbeitet werden können. Weitere Informationen: [https://telegram.org/privacy](https://telegram.org/privacy)
+Wenn Sie meinem Kanal beitreten oder mir über Telegram Nachrichten senden, werden Ihre Daten auf den Servern von Telegram gespeichert. Ich habe keinen Einfluss auf die Datenverarbeitung durch Telegram. Bitte beachten Sie, dass bei der Nutzung von Telegram Daten außerhalb der EU verarbeitet werden können. Weitere Informationen: <https://telegram.org/privacy>
 
 Ich nutze über Telegram übermittelte Daten ausschließlich zur Beantwortung von Anfragen und zur Bereitstellung von Kanalinhalten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
 
@@ -37,17 +36,17 @@ Ich nutze über Telegram übermittelte Daten ausschließlich zur Beantwortung vo
 
 Ich betreibe folgende Profile auf Social-Media-Plattformen:
 
-**Instagram [@alenopova](https://www.instagram.com/alenopova)** (Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland)  
-Wenn Sie mein Instagram-Profil @alenopova besuchen oder mit meinen Inhalten interagieren, werden Daten durch Meta verarbeitet. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: [https://privacycenter.instagram.com/policy](https://privacycenter.instagram.com/policy)
+**Instagram [@alenopova](https://www.instagram.com/alenopova)** (Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland)\
+Wenn Sie mein Instagram-Profil @alenopova besuchen oder mit meinen Inhalten interagieren, werden Daten durch Meta verarbeitet. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: <https://privacycenter.instagram.com/policy>
 
-**Instagram [@creamsoda.germany](https://www.instagram.com/creamsoda.germany)** (Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland)  
-Wenn Sie das Instagram-Profil @creamsoda.germany besuchen oder mit den Inhalten interagieren, werden Daten durch Meta verarbeitet. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: [https://privacycenter.instagram.com/policy](https://privacycenter.instagram.com/policy)
+**Instagram [@creamsoda.germany](https://www.instagram.com/creamsoda.germany)** (Meta Platforms Ireland Ltd., 4 Grand Canal Square, Dublin 2, Irland)\
+Wenn Sie das Instagram-Profil @creamsoda.germany besuchen oder mit den Inhalten interagieren, werden Daten durch Meta verarbeitet. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: <https://privacycenter.instagram.com/policy>
 
-**TikTok [@alenopova](https://www.tiktok.com/@alenopova)** (TikTok Technology Limited, 10 Earlsfort Terrace, Dublin 2, Irland)  
-Beim Besuch meines TikTok-Profils @alenopova werden Daten durch TikTok verarbeitet. Weitere Informationen: [https://www.tiktok.com/legal/page/eea/privacy-policy/de-DE](https://www.tiktok.com/legal/page/eea/privacy-policy/de-DE)
+**TikTok [@alenopova](https://www.tiktok.com/@alenopova)** (TikTok Technology Limited, 10 Earlsfort Terrace, Dublin 2, Irland)\
+Beim Besuch meines TikTok-Profils @alenopova werden Daten durch TikTok verarbeitet. Weitere Informationen: <https://www.tiktok.com/legal/page/eea/privacy-policy/de-DE>
 
-**YouTube** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland)  
-Beim Besuch meines YouTube-Kanals werden Daten durch Google/YouTube verarbeitet. YouTube kann dabei Cookies setzen und Nutzungsdaten erheben. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+**YouTube** **[@alenopova](<>)** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland)\
+Beim Besuch meines YouTube-Kanals werden Daten durch Google/YouTube verarbeitet. YouTube kann dabei Cookies setzen und Nutzungsdaten erheben. Ich habe keinen Einfluss auf Art und Umfang dieser Datenverarbeitung. Weitere Informationen: <https://policies.google.com/privacy>
 
 Ich weise darauf hin, dass bei der Nutzung dieser Plattformen Daten außerhalb der EU verarbeitet werden können. Die Plattformen verfügen über entsprechende Standardvertragsklauseln gemäß Art. 46 DSGVO.
 
@@ -63,7 +62,7 @@ Bei dem Klick auf einen Affiliate Link werden technische Daten (z. B. IP-Adresse
 
 ## 9. Impressum-Privatschutz (IP-Management)
 
-Wir verwenden für die Verwaltung der an uns gesendeten Post die Dienstleistungen der IMPRESSUM PRIVATSCHUTZ GmbH, Ludwig-Erhard-Str. 18, 20459 Hamburg. Dieser Dienstleister bietet eine sichere und zuverlässige Postanschrift für unser Projekt (z. B. Impressum, Datenschutzerklärung, Widerrufsbelehrung und ggf. weitere Bereiche). Dies stellt auch unser berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Wir haben mit Impressum-Privatschutz einen Vertrag zur Auftragsverarbeitung abgeschlossen und setzen die strengen Vorgaben der deutschen Datenschutzbehörden bei der Nutzung dieser Dienstleistung vollständig um. Weitere Informationen über Datenschutz bei Impressum-Privatschutz GmbH finden Sie hier: [https://impressum-privatschutz.de/datenschutzerklaerung/](https://impressum-privatschutz.de/datenschutzerklaerung/)
+Wir verwenden für die Verwaltung der an uns gesendeten Post die Dienstleistungen der IMPRESSUM PRIVATSCHUTZ GmbH, Ludwig-Erhard-Str. 18, 20459 Hamburg. Dieser Dienstleister bietet eine sichere und zuverlässige Postanschrift für unser Projekt (z. B. Impressum, Datenschutzerklärung, Widerrufsbelehrung und ggf. weitere Bereiche). Dies stellt auch unser berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO dar. Wir haben mit Impressum-Privatschutz einen Vertrag zur Auftragsverarbeitung abgeschlossen und setzen die strengen Vorgaben der deutschen Datenschutzbehörden bei der Nutzung dieser Dienstleistung vollständig um. Weitere Informationen über Datenschutz bei Impressum-Privatschutz GmbH finden Sie hier: <https://impressum-privatschutz.de/datenschutzerklaerung/>
 
 ## 10. Kooperationen und Geschäftskontakte
 
@@ -77,12 +76,12 @@ Ich gebe personenbezogene Daten nicht an Dritte weiter, es sei denn, dies ist zu
 
 Sie haben gemäß DSGVO folgende Rechte:
 
-- **Auskunft** (Art. 15 DSGVO): Auskunft über die von mir gespeicherten Daten
-- **Berichtigung** (Art. 16 DSGVO): Berichtigung unrichtiger Daten
-- **Löschung** (Art. 17 DSGVO): Löschung Ihrer Daten
-- **Einschränkung** (Art. 18 DSGVO): Einschränkung der Verarbeitung
-- **Widerspruch** (Art. 21 DSGVO): Widerspruch gegen die Verarbeitung
-- **Beschwerde**: Zuständige Aufsichtsbehörde ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach, [www.lda.bayern.de](https://www.lda.bayern.de)
+* **Auskunft** (Art. 15 DSGVO): Auskunft über die von mir gespeicherten Daten
+* **Berichtigung** (Art. 16 DSGVO): Berichtigung unrichtiger Daten
+* **Löschung** (Art. 17 DSGVO): Löschung Ihrer Daten
+* **Einschränkung** (Art. 18 DSGVO): Einschränkung der Verarbeitung
+* **Widerspruch** (Art. 21 DSGVO): Widerspruch gegen die Verarbeitung
+* **Beschwerde**: Zuständige Aufsichtsbehörde ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach, [www.lda.bayern.de](https://www.lda.bayern.de)
 
 Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: [{{legal.email}}](mailto:{{legal.email}})
 
