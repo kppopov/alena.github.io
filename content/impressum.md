@@ -1,9 +1,8 @@
 ---
-title: "Impressum"
-emoji: "⚖️"
-lede: "Angaben gemäß § 5 DDG und § 18 MStV"
+title: Impressum
+emoji: ⚖️
+lede: Angaben gemäß § 5 DDG und § 18 MStV
 ---
-
 **Inhaber:**
 {{legal.name}}
 
@@ -11,18 +10,23 @@ lede: "Angaben gemäß § 5 DDG und § 18 MStV"
 
 {{legal.name}}, verantwortlich für die folgenden Accounts:
 
-- Instagram: [@alenopova](https://www.instagram.com/alenopova), [@creamsoda.germany](https://www.instagram.com/creamsoda.germany)
-- TikTok: [@alenopova](https://www.tiktok.com/@alenopova)
+* Instagram: [@alenopova](https://www.instagram.com/alenopova), [@creamsoda.germany](https://www.instagram.com/creamsoda.germany)
+* TikTok: [@alenopova](https://www.tiktok.com/@alenopova)
 
 **Verantwortlich für journalistisch-redaktionelle Inhalte gemäß § 18 Abs. 2 MStV:**
 {{legal.name}}
+
 c/o IP-Management #10177
+
 Ludwig-Erhard-Straße 18
+
 20459 Hamburg
 
 **Adresse:**
 c/o IP-Management #10177
+
 Ludwig-Erhard-Straße 18
+
 20459 Hamburg
 
 **Telefon:** {{legal.phone}}
@@ -33,7 +37,7 @@ Ludwig-Erhard-Straße 18
 
 Gemäß der Verordnung über die Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) informiere ich über die Existenz der Online-Streitbeilegungsplattform (OS-Plattform).
 
-Verbraucher haben die Möglichkeit, Beschwerden über die OS-Plattform der Europäischen Kommission unter [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr) einzureichen. Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+Verbraucher haben die Möglichkeit, Beschwerden über die OS-Plattform der Europäischen Kommission unter <https://ec.europa.eu/consumers/odr> einzureichen. Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ## Haftung für Inhalte
 
