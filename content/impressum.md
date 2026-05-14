@@ -4,6 +4,10 @@ emoji: "⚖️"
 lede: "Angaben gemäß § 5 DDG und § 18 MStV"
 ---
 
+# Impressum
+
+Angaben gemäß § 5 DDG und § 18 MStV
+
 **Inhaber:**
 {{legal.name}}
 
