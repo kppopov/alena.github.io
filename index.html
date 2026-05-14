@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alena — Personal Page</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --accent: #818cf8;
+            --accent-hover: #a5b4fc;
+            --text: #e2e8f0;
+            --muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a { color: var(--accent); text-decoration: none; transition: color .2s; }
+        a:hover { color: var(--accent-hover); }
+
+        /* ---- Header / Hero ---- */
+        header {
+            text-align: center;
+            padding: 5rem 1.5rem 3rem;
+            background: linear-gradient(170deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        .avatar {
+            width: 120px; height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--accent);
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            /* placeholder gradient when no image */
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+        }
+
+        header h1 { font-size: 2.4rem; font-weight: 700; }
+        header p.tagline { color: var(--muted); font-size: 1.1rem; margin-top: .5rem; }
+
+        .social-links { margin-top: 1.5rem; display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; }
+        .social-links a {
+            display: inline-flex; align-items: center; gap: .4rem;
+            padding: .45rem 1rem; border: 1px solid var(--accent); border-radius: 2rem;
+            font-size: .9rem; transition: background .2s, color .2s;
+        }
+        .social-links a:hover { background: var(--accent); color: var(--bg); }
+
+        /* ---- Sections ---- */
+        main { max-width: 760px; width: 100%; margin: 0 auto; padding: 3rem 1.5rem; flex: 1; }
+
+        section { margin-bottom: 3rem; }
+        section h2 {
+            font-size: 1.4rem; margin-bottom: 1rem;
+            padding-bottom: .4rem; border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+
+        /* ---- Cards ---- */
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+        .card {
+            background: var(--surface);
+            border-radius: .75rem;
+            padding: 1.5rem;
+            transition: transform .2s, box-shadow .2s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.3); }
+        .card h3 { margin-bottom: .4rem; }
+        .card p { color: var(--muted); font-size: .95rem; }
+        .card .tech { margin-top: .75rem; display: flex; flex-wrap: wrap; gap: .4rem; }
+        .card .tech span {
+            background: var(--bg); padding: .2rem .6rem; border-radius: .35rem;
+            font-size: .8rem; color: var(--accent);
+        }
+
+        /* ---- Skills ---- */
+        .skills-list { display: flex; flex-wrap: wrap; gap: .6rem; }
+        .skills-list span {
+            background: var(--surface); padding: .4rem 1rem; border-radius: 2rem;
+            font-size: .9rem;
+        }
+
+        /* ---- Footer ---- */
+        footer { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: .85rem; }
+
+        /* ---- Responsive ---- */
+        @media (max-width: 480px) {
+            header { padding: 3rem 1rem 2rem; }
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <!-- Replace src with your photo or remove the <img> tag -->
+    <div class="avatar" role="img" aria-label="Avatar"></div>
+    <h1>Alena</h1>
+    <p class="tagline">Software Engineer · Creator · Lifelong Learner</p>
+
+    <nav class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@example.com">Email</a>
+    </nav>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Alena — a software engineer who enjoys building clean,
+            user-friendly applications. I'm passionate about web technologies,
+            open-source, and continuous learning. When I'm not coding you'll
+            find me reading, hiking, or experimenting with new recipes.
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Portfolio Site</h3>
+                <p>This very page — a minimal, responsive personal site hosted on GitHub Pages.</p>
+                <div class="tech"><span>HTML</span><span>CSS</span></div>
+            </div>
+            <div class="card">
+                <h3>Task Tracker</h3>
+                <p>A lightweight to-do app with local storage persistence and dark-mode support.</p>
+                <div class="tech"><span>JavaScript</span><span>CSS</span></div>
+            </div>
+            <div class="card">
+                <h3>Weather Dashboard</h3>
+                <p>Fetches real-time weather data and displays interactive forecasts.</p>
+                <div class="tech"><span>React</span><span>REST API</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>HTML &amp; CSS</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>SQL</span>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2026 Alena. Built with ☕ and curiosity.
+</footer>
+
+</body>
+</html>
