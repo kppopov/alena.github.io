@@ -4,10 +4,6 @@ emoji: "🔒"
 lede: "Stand: {{legal.stand}}"
 ---
 
-# Datenschutzerklärung
-
-Stand: {{legal.stand}}
-
 ## 1. Verantwortliche Person
 
 {{legal.name}}  
