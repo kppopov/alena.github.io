@@ -2,14 +2,14 @@
   "links": [
     {
       "icon": "📋",
-      "label": "Консультация по соцсетям → DM",
+      "label": "Консультация по соцсетям",
       "url": "https://ig.me/m/alenopova",
       "featured": false,
       "external": true
     },
     {
       "icon": "🤝",
-      "label": "Коллаборация → alenopova@gmail.com",
+      "label": "Коллаборация и реклама",
       "url": "mailto:alenopova@gmail.com",
       "featured": false,
       "external": false
