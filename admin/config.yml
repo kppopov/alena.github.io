@@ -1,0 +1,92 @@
+backend:
+  name: github
+  repo: kppopov/alena.github.io
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Where uploaded images are stored / served from
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+# Localisation of the CMS UI (English is default; you can switch to "ru" if she prefers)
+locale: "en"
+
+# Show a live preview pane next to the editor where possible
+show_preview_links: true
+
+collections:
+  # ---------- Profile (single file) ----------
+  - name: "profile"
+    label: "Profile (home page header)"
+    files:
+      - file: "content/profile.json"
+        name: "profile"
+        label: "Profile"
+        format: "json"
+        fields:
+          - { name: "name",   label: "Name / handle",       widget: "string" }
+          - { name: "bio",    label: "Bio (one line)",      widget: "string" }
+          - { name: "avatar", label: "Avatar image",        widget: "image", required: false }
+          - name: "socials"
+            label: "Social links"
+            widget: "list"
+            fields:
+              - name: "type"
+                label: "Type"
+                widget: "select"
+                options: ["instagram", "tiktok", "youtube", "email", "dm"]
+              - { name: "url", label: "URL (or mailto: address)", widget: "string" }
+
+  # ---------- Link cards (single file) ----------
+  - name: "links"
+    label: "Link cards (home page)"
+    files:
+      - file: "content/links.json"
+        name: "links"
+        label: "Links"
+        format: "json"
+        fields:
+          - name: "links"
+            label: "Cards"
+            widget: "list"
+            fields:
+              - { name: "icon",     label: "Emoji icon", widget: "string" }
+              - { name: "label",    label: "Label",      widget: "string" }
+              - { name: "url",      label: "URL",        widget: "string" }
+              - { name: "featured", label: "Highlight as featured", widget: "boolean", default: false }
+              - { name: "external", label: "Opens in new tab",       widget: "boolean", default: true }
+
+  # ---------- Legal contact info (single file) ----------
+  - name: "legal"
+    label: "Impressum / Datenschutz — contact info"
+    files:
+      - file: "content/legal.json"
+        name: "legal"
+        label: "Contact info"
+        format: "json"
+        fields:
+          - { name: "name",    label: "Full name", widget: "string" }
+          - { name: "street",  label: "Street",    widget: "string" }
+          - { name: "city",    label: "Postal code + city", widget: "string" }
+          - { name: "country", label: "Country",   widget: "string" }
+          - { name: "email",   label: "E-mail",    widget: "string" }
+          - { name: "phone",   label: "Phone",     widget: "string" }
+          - { name: "stand",   label: "Datenschutz date (Stand)", widget: "string" }
+
+  # ---------- AMEX page (markdown file) ----------
+  - name: "amex"
+    label: "AMEX page"
+    files:
+      - file: "content/amex.md"
+        name: "amex"
+        label: "AMEX page content"
+        format: "frontmatter"
+        fields:
+          - { name: "title",        label: "Page title",      widget: "string" }
+          - { name: "emoji",        label: "Header emoji",    widget: "string" }
+          - { name: "lede",         label: "Lede (subtitle)", widget: "string" }
+          - { name: "gold_url",     label: "Gold card URL",     widget: "string" }
+          - { name: "platinum_url", label: "Platinum card URL", widget: "string" }
+          - { name: "disclaimer",   label: "Affiliate disclaimer", widget: "text" }
+          - { name: "body",         label: "Body (Markdown)", widget: "markdown" }

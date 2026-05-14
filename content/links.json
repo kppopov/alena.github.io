@@ -1,0 +1,46 @@
+{
+  "links": [
+    {
+      "icon": "📋",
+      "label": "Консультация по соцсетям → DM",
+      "url": "https://ig.me/m/alenopova",
+      "featured": false,
+      "external": true
+    },
+    {
+      "icon": "🤝",
+      "label": "Коллаборация → alenopova@gmail.com",
+      "url": "mailto:alenopova@gmail.com",
+      "featured": false,
+      "external": false
+    },
+    {
+      "icon": "▶️",
+      "label": "YouTube · @alenopova",
+      "url": "https://www.youtube.com/@alenopova",
+      "featured": false,
+      "external": true
+    },
+    {
+      "icon": "💫",
+      "label": "AMEX-ссылки для друзей",
+      "url": "amex.html",
+      "featured": true,
+      "external": false
+    },
+    {
+      "icon": "⚖️",
+      "label": "Impressum",
+      "url": "legal.html#impressum",
+      "featured": false,
+      "external": false
+    },
+    {
+      "icon": "🔒",
+      "label": "Datenschutzerklärung",
+      "url": "legal.html#datenschutz",
+      "featured": false,
+      "external": false
+    }
+  ]
+}

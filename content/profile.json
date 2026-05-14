@@ -1,0 +1,12 @@
+{
+  "name": "@alenopova",
+  "bio": "Контент-креатор · Nürnberg, DE",
+  "avatar": "/assets/avatar.jpg",
+  "socials": [
+    { "type": "instagram", "url": "https://instagram.com/alenopova" },
+    { "type": "tiktok",    "url": "https://tiktok.com/@alenopova" },
+    { "type": "youtube",   "url": "https://www.youtube.com/@alenopova" },
+    { "type": "email",     "url": "mailto:alenopova@gmail.com" },
+    { "type": "dm",        "url": "https://ig.me/m/alenopova" }
+  ]
+}

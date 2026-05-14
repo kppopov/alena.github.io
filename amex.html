@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
+<body data-page="amex">
 
 <div class="blob blob-1" aria-hidden="true"></div>
 <div class="blob blob-2" aria-hidden="true"></div>
@@ -27,48 +27,23 @@
     </a>
 
     <article class="content-card">
-        <span class="page-emoji" aria-hidden="true">💫</span>
-        <h1>AMEX-ссылки для друзей</h1>
-        <p class="lede">Ты упускаешь реальные бонусы, если не оформишь Amex сейчас.</p>
+        <span class="page-emoji" aria-hidden="true" data-field="amex.emoji">💫</span>
+        <h1 data-field="amex.title">AMEX-ссылки для друзей</h1>
+        <p class="lede" data-field="amex.lede">Ты упускаешь реальные бонусы, если не оформишь Amex сейчас.</p>
 
-        <p>До <strong>30 июня 2026</strong> действует акция с максимальными приветственными бонусами:</p>
-        <ul>
-            <li><strong>Золотая карта (розовая)</strong> — 55 000 пунктов</li>
-            <li><strong>Платиновая карта</strong> — 85 000 пунктов</li>
-        </ul>
+        <!-- Markdown body from content/amex.md -->
+        <div data-field="amex.body"></div>
 
-        <h2>Что дают эти пункты?</h2>
         <p>
-            Это может быть 1–2 билета бизнес-классом, проживание в отеле, подарки или
-            другие привилегии — в зависимости от авиакомпании и твоих целей.
-        </p>
-
-        <h2>С чего начать</h2>
-        <p>
-            Секрет прост: начать можно с золотой карты — она покрывает базовые
-            потребности и позволяет уже копить бонусы. Позже, при желании, можно
-            перейти на платиновую, которая предлагает больше привилегий и
-            дополнительных возможностей.
-        </p>
-
-        <h2>Что ты получишь, оформив карту по моей ссылке</h2>
-        <ul>
-            <li>Научу всем хитростям и нюансам накопления пунктов</li>
-            <li>Объясню, как максимизировать бонусы</li>
-            <li>Добавлю в закрытый чат с консультацией и поддержкой</li>
-        </ul>
-
-        <h2>Ссылки для оформления</h2>
-        <p>
-            <a class="cta-button" href="https://americanexpress.com/de-de/referral/gold?ref=kONSTPXbPN&XL=MNMNS" target="_blank" rel="noopener sponsored">
+            <a class="cta-button" data-field="amex.gold_url" href="#" target="_blank" rel="noopener sponsored">
                 ✨ Золотая (розовая) карта*
             </a>
-            <a class="cta-button secondary" href="https://americanexpress.com/de-de/referral/platinum?ref=kONSTPXbPN&XL=MNMNS" target="_blank" rel="noopener sponsored">
+            <a class="cta-button secondary" data-field="amex.platinum_url" href="#" target="_blank" rel="noopener sponsored">
                 💎 Платиновая карта*
             </a>
         </p>
 
-        <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);">
+        <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);" data-field="amex.disclaimer">
             * Affiliate-Links. Wenn du über einen dieser Links eine Karte abschließt,
             erhalte ich eine Provision — für dich ohne Mehrkosten.
         </p>
@@ -83,6 +58,9 @@
         <a href="legal.html#datenschutz">Datenschutz</a>
     </p>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="assets/render.js"></script>
 
 </body>
 </html>

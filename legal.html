@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
+<body data-page="legal">
 
 <div class="blob blob-1" aria-hidden="true"></div>
 <div class="blob blob-2" aria-hidden="true"></div>
@@ -34,16 +34,16 @@
 
         <h2>Verantwortlich für den Inhalt</h2>
         <p>
-            Elena Popova<br>
-            Musterstr. XX<br>
-            90XX Nürnberg<br>
-            Deutschland
+            <span data-field="legal.name">Elena Popova</span><br>
+            <span data-field="legal.street">Musterstr. XX</span><br>
+            <span data-field="legal.city">90XX Nürnberg</span><br>
+            <span data-field="legal.country">Deutschland</span>
         </p>
 
         <h2>Kontakt</h2>
         <p>
-            E-Mail: <a href="mailto:alena@popovs.de">alena@popovs.de</a><br>
-            Telefon: +49 159 0149 5357
+            E-Mail: <a href="mailto:alena@popovs.de" data-field="legal.email">alena@popovs.de</a><br>
+            Telefon: <span data-field="legal.phone">+49 159 0149 5357</span>
         </p>
 
         <h2>Haftungsausschluss</h2>
@@ -59,14 +59,14 @@
     <article class="content-card" id="datenschutz" style="margin-top: 2rem;">
         <span class="page-emoji" aria-hidden="true">🔒</span>
         <h1>Datenschutzerklärung</h1>
-        <p class="lede">Stand: März 2025</p>
+        <p class="lede">Stand: <span data-field="legal.stand">März 2025</span></p>
 
         <h2>1. Verantwortliche Person</h2>
         <p>
-            Elena Popova<br>
-            Musterstr. XX, 90XX Nürnberg, Deutschland<br>
-            E-Mail: <a href="mailto:alena@popovs.de">alena@popovs.de</a><br>
-            Telefon: +49 159 0149 5357
+            <span data-field="legal.name">Elena Popova</span><br>
+            <span data-field="legal.street">Musterstr. XX</span>, <span data-field="legal.city">90XX Nürnberg</span>, <span data-field="legal.country">Deutschland</span><br>
+            E-Mail: <a href="mailto:alena@popovs.de" data-field="legal.email">alena@popovs.de</a><br>
+            Telefon: <span data-field="legal.phone">+49 159 0149 5357</span>
         </p>
 
         <h2>2. Allgemeines zur Datenverarbeitung</h2>
@@ -205,6 +205,8 @@
         <a href="amex.html">AMEX</a>
     </p>
 </footer>
+
+<script src="assets/render.js"></script>
 
 </body>
 </html>
